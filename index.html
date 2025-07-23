@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+     <header>
+        <h1>Blood Pressure Checker</h1>
+        <p>Enter your blood pressure readings to see your health status.</p>
+    </header>
+
+    <main>
+        <section id="bp-form">
+            <h2>Check Your BP</h2>
+            <form id="bpCheckerForm">
+                <label for="systolic">Systolic (Top Number):</label>
+                <input type="number" id="systolic" name="systolic" required><br><br>
+
+                <label for="diastolic">Diastolic (Bottom Number):</label>
+                <input type="number" id="diastolic" name="diastolic" required><br><br>
+
+                <button type="submit">Check</button>
+            </form>
+        </section>
+
+        <section id="bp-result">
+            <h2>Your Result</h2>
+            <p id="resultMessage">Please enter your readings and submit the form.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 BP Checker | All rights reserved</p>
+    </footer>
+</body>
+</html>
